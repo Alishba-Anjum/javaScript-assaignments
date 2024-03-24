@@ -11,3 +11,8 @@ var boolean_array = mixed_array.filter(function (item) {
 console.log(str_array);
 console.log(num_array);
 console.log(boolean_array);
+var arr = [1, 2, 3, 4];
+var newArr = arr.reduce(function (res, curr) {
+    return res + curr;
+});
+console.log(newArr);
